@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(127, 246, 255);
+    color: rgb(255, 255, 172);
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 110px;
+    font-size: 30px;
+    font-family: "Rubik Mono One", monospace;
+}
+
+form {
+    display: flex;
+    margin-top: 50px;
+}
+
+.inputs {
+    margin: auto;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+input,
+button {
+    height: 32px;
+    padding: 6px;
+}
+
+input {
+    width: 450px;
+}
+
+button {
+    background-color: rgb(248, 61, 155);
+    border: 2px solid rgb(255, 255, 172);
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
+ul {
+    text-align: center;
+    color: rgb(248, 61, 155);
+    font-size: 22px;
+    margin-top: 25px;
+    font-family: "Comfortaa", sans-serif;
+}
+
