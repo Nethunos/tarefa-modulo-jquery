@@ -6,8 +6,10 @@ $(document).ready(function(){
         const itemTarefa = $('<li></li>').text(novaTarefa);
         $(novaTarefa).appendTo(itemTarefa);
         $(itemTarefa).appendTo('ul');
-        $('ul');
-    })
-    
-    
+    });
+
+    $("ul").on("click", "li", function (e) {
+        e.preventDefault();
+        $(this).toggleClass("strike-through");
+    });
 })

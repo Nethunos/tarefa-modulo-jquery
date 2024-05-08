@@ -56,3 +56,6 @@ ul {
     font-family: "Comfortaa", sans-serif;
 }
 
+.strike-through {
+    text-decoration: line-through;
+}
